@@ -1,0 +1,19 @@
+version: '3'
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8080:8080"
+    environment:
+      - SMTP_HOST=smtp
+      - SMTP_PORT=465
+      - SMTP_USER=your-username
+      - SMTP_PASS=your-password
+  smtp:
+    image: some-smtp-image
+    ports:
+      - "465:465"
+  mysql:
+    image: mysql:latest
+    environment:
+      - MYSQL_ROOT_PASSWORD=your_password

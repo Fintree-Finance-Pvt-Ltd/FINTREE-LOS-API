@@ -1,0 +1,16 @@
+2025-08-21 16:50:42.744 [INFO] DB connection ok
+2025-08-21 16:50:42.859 [INFO] API running on :8080
+2025-08-21 16:50:54.255 [INFO] OTP.request start {"email":"sajagjain98@gmail.com"}
+2025-08-21 16:50:54.287 [INFO] OTP DB record created {"email":"sajagjain98@gmail.com"}
+2025-08-21 16:50:57.174 [INFO] OTP email sent {"to":"sajagjain98@gmail.com"}
+2025-08-21 16:51:25.384 [INFO] OTP.verify start {"email":"sajagjain98@gmail.com"}
+2025-08-21 16:51:25.428 [INFO] OTP marked consumed {"email":"sajagjain98@gmail.com"}
+2025-08-21 16:51:25.435 [INFO] User found {"userId":1}
+2025-08-21 16:51:25.454 [INFO] JWT issued {"userId":1}
+2025-08-21 16:58:22.029 [INFO] OTP.request start {"email":"sajagjain98@gmail.com"}
+2025-08-21 16:58:22.050 [INFO] OTP DB record created {"email":"sajagjain98@gmail.com"}
+2025-08-21 16:58:25.022 [INFO] OTP email sent {"to":"sajagjain98@gmail.com"}
+2025-08-21 16:58:42.154 [INFO] OTP.verify start {"email":"sajagjain98@gmail.com"}
+2025-08-21 16:58:42.173 [INFO] OTP marked consumed {"email":"sajagjain98@gmail.com"}
+2025-08-21 16:58:42.176 [INFO] User found {"userId":1}
+2025-08-21 16:58:42.190 [INFO] JWT issued {"userId":1}
